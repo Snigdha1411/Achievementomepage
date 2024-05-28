@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+height: 140vh;
+}
+body {
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100vw;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0%;
+    max-height: 140vh;
+}
+
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: #5e0134;
+    height: fit-content;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #000;
+}
+
+.nav-content {
+    width: 1300px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.navbar > .nav-content > .logo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+	height: 100%;
+}
+
+.navbar > .nav-content > .logo > img {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar > .nav-content > .logo > .head > h3 {
+    text-align: right;
+    margin-top: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: aqua;
+}
+
+
+.navbar > .nav-content > .logo > .head > h2{
+    margin-bottom: 0px;
+    font-family: fantasy;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+	width: 30%;
+}
+
+
+
+button{
+    outline: none;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #0078d4;
+    color: white;
+    margin: 10px;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #2306e2;
+    color: rgb(238, 221, 70);
+    transition: 3s;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 20px auto;
+    height: 80%;
+}
+
+main > .content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: center;
+    height: fit-content ;
+}
+
+.item > img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    width: 80%;
+    height: 80%;
+    margin-right: 20px;
+}
+
+/* About Us */
+
+#about-us {
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+	height: fit-content;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	font-size: 16px;
+    width: 100%;
+}
+
+#about-us > h3{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#about-us > article{	
+	height: 80%;
+	width: 60%;
+	font-size: 16px;
+}
+
+/* events part */
+.Events{
+background-color: rgb(161, 247, 247);s
+}
+
+.Events > h3{
+    background-color: #f01f92;
+    height: 35px;
+}
+/*
+#Upcomig Events > ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+#Upcomig Events > ul > li {
+    font-size: 18px;
+}*/
+
+/* Link part*/
+.fab{
+    color: #0078d4;
+    display: inline-block;
+    position: relative;
+ }
+
+.fa{
+  color:rgb(231, 25, 94); 
+  display: inline-block;
+  position: relative;
+}
+
+.fa-youtube{
+    color:red;
+    display: inline-block; 
+    position: relative;
+}
+
+.fa-twitter{
+    color:#0078d4;
+    display: inline-block;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+}
+
+.links{
+    align-items: bottom;
+}
+
